@@ -4,8 +4,20 @@
   "description": "tutorial for npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Falcon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalconJ/npmtut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FalconJ/npmtut/issues"
+  },
+  "homepage": "https://github.com/FalconJ/npmtut#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {}
 }
